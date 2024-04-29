@@ -4,21 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>色图网</title>
-    <link rel="stylesheet" href="./index.css">
+    <title>AwwwCat 个人博客</title>
+    <link rel="stylesheet" href="./css/navigation_bar.css">
+    <link rel="stylesheet" href="./css/essay.css">
+    <link rel="stylesheet" href="./css/test.css">
+    <link rel="stylesheet" href="./css/course.css">
 </head>
 
 <body>
-    <button onclick="showImage()">点我查看劲爆色图</button>
-    <br>
-    <img id="sex_image" src="">
-</body>
+    <div id="topnav">
+        <ul id="topnav">
+            <li id="title">AwwwCat 个人博客</li>
+            <li id="nav"><a class="right" href="#news">五子棋</a></li>
+            <li id="nav"><a href="#news">项目</a></li>
+            <li id="nav"><a class="active" href="#home">主页</a></li>
+        </ul>
+    </div>
 
-<script>
-    function showImage() {
-        const imgElement = document.getElementById("sex_image");
-        imgElement.src = "images/姦.png";
-    }
-</script>
+    <div style="padding:20px;margin-top:30px;height:1500px;">
+        <button onclick="showImage()">点我查看劲爆色图</button>
+        <br />
+        <img id="sex_image" src="" />
+    </div>
+
+    <script src="./index.js"></script>
+</body>
 
 </html>

@@ -1,0 +1,45 @@
+div#topnav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+ul#topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li#title {
+    float: left;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-left: 20px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li#nav a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-left: 1px solid #bbb;
+}
+
+li#nav a.right {
+    margin-right: 20px;
+}
+
+li#nav a.active {
+    background-color: #4CAF50;
+}
+
+li#nav a:hover {
+    background-color: #111;
+}
