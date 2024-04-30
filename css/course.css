@@ -1,33 +1,49 @@
 div#course {
     margin-top: 30px;
-    padding-left: 20px;
     width: 80%;
     float: left;
     background-color: #f1f1f1;
 }
 
-div#course.column {
-    float: left;
-    width: 45%;
-    margin: 2.5%;
-    padding: 15px;
-    background-color: white;
-}
-
-div#course.row:after {
+div#course div.row:after {
     content: "";
     display: table;
     clear: both;
+    margin-top: 0px;
     background-color: white;
 }
 
+div#course div.column {
+    margin-top: 0px;
+    margin-bottom: 2.5%;
+    margin-left: 1.65%;
+    margin-right: 1.65%;
+    float: left;
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    vertical-align: middle;
+}
+
 @media screen and (max-width:600px) {
-    div#course.column {
+    div#course div.column {
         width: 100%;
     }
 }
 
-div#course img {
+div#course div.column div.image {
+    height: 300px;
+}
+
+div#course div.column div.image img {
     width: 100%;
-    padding: 20px;
+    max-height: 100%;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+div#course div.column div.p {
+    height: 50px;
 }

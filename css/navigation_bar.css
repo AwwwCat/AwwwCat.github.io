@@ -4,7 +4,7 @@ div#topnav {
     width: 100%;
 }
 
-ul#topnav {
+div#topnav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ ul#topnav {
     background-color: #333;
 }
 
-li#title {
+div#topnav li#title {
     float: left;
     color: white;
     display: block;
@@ -22,7 +22,7 @@ li#title {
     text-decoration: none;
 }
 
-li#nav a {
+div#topnav li a {
     float: right;
     display: block;
     color: white;
@@ -32,14 +32,14 @@ li#nav a {
     border-left: 1px solid #bbb;
 }
 
-li#nav a.right {
+div#topnav li a.right {
     margin-right: 20px;
 }
 
-li#nav a.active {
+div#topnav li a.active {
     background-color: #4CAF50;
 }
 
-li#nav a:hover {
+div#topnav li a:hover {
     background-color: #111;
 }
