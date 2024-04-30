@@ -1,0 +1,33 @@
+div#course {
+    margin-top: 30px;
+    padding-left: 20px;
+    width: 80%;
+    float: left;
+    background-color: #f1f1f1;
+}
+
+div#course.column {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    padding: 15px;
+    background-color: white;
+}
+
+div#course.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    background-color: white;
+}
+
+@media screen and (max-width:600px) {
+    div#course.column {
+        width: 100%;
+    }
+}
+
+div#course img {
+    width: 100%;
+    padding: 20px;
+}
